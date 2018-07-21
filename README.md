@@ -1,3 +1,4 @@
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 <p align="center">
     <h1 align="center">Yii 2 Advanced Project Template with 2amigos/Usuario Module</h1>
     <br>
