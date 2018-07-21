@@ -1,4 +1,4 @@
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Colton's Sun](https://github.com/ColtonJacobson23/LogosAndImages/logo.png)
 <p align="center">
     <h1 align="center">Yii 2 Advanced Project Template with 2amigos/Usuario Module</h1>
     <br>
