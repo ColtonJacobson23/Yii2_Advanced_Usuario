@@ -6,7 +6,7 @@
 
 ## Steps to Install and Implement Yii2 Advanced Template with the 2amigos/Usuario module (for Windows)
 ### 1. Download and Install PHP IDE and Composer
-- Reccomended PHP IDE is [PHP Storm](https://www.jetbrains.com/phpstorm/download/)
+- Recommended PHP IDE is [PHP Storm](https://www.jetbrains.com/phpstorm/download/)
 - [Composer download instructions](https://github.com/yiisoft/yii2/blob/master/docs/guide/start-installation.md#installing-composer)
 ### 2. Download and Install [Wamp Server (x64)](https://sourceforge.net/projects/wampserver/files/)
 ### 3. Install the [Yii2 Advanced Application Template using Composer](https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md#installing-using-composer)
@@ -41,8 +41,9 @@
    - Change:</br>$menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];</br>to</br>
    $menuItems[] = ['label' => 'Signup', 'url' => ['/user/registration/register']];
 ### 7. Running the website
- - Click on the wamp54 application and run it
- - 
+ - Click on the wamp64 application and run it
+ - Using a browser, go to the URL localhost/wamp64/www/project_file/frontend/web, which will take you to the frontend webpage of the template
+ - To access the backend, repeat the URL above except use 'backend' instead of 'frontend'
 
 
 DIRECTORY STRUCTURE
