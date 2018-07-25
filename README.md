@@ -24,7 +24,14 @@
             ],
 #### Once you finish the database configurations, move the entire project file into the wamp64/www/ folder, so that wamp will be able to recognize and run your website.
 ### 4. Download and Install the 2amigos/Usuario Module
- - Complete steps 1-3 [here](http://yii2-usuario.readthedocs.io/en/latest/installation/advanced-application-template/)
+ - Complete steps 1-2 [here](http://yii2-usuario.readthedocs.io/en/latest/installation/advanced-application-template/)
+ - Configure the authManager
+   - Go to common\config\main.php in the template
+   - Insert the code below into the 'components' array</br>
+   >'authManager' => [</br>
+   'class' => 'yii\rbac\DbManager',</br>
+   ],</br>
+ - Then apply the followng migrations to your database
    - Migrations should be done in the command line, proper commands are below<br/>
    yii migrate --migrationNamespaces=Da\User\Migration<br/>
    yii migrate --migrationPath=@yii/rbac/migrations<br/>
