@@ -9,6 +9,11 @@
 - Recommended PHP IDE is [PHP Storm](https://www.jetbrains.com/phpstorm/download/)
 - [Composer download instructions](https://github.com/yiisoft/yii2/blob/master/docs/guide/start-installation.md#installing-composer)
 ### 2. Download and Install [Wamp Server (x64)](https://sourceforge.net/projects/wampserver/files/)
+ - In order to use PHP or MySQL from the command line, you must complete steps below:
+   - Go into the environment variables for your computer, and under the __System Variables__, select the __Path__ variable, and click __Edit__ (click [here](https://www.java.com/en/download/help/path.xml) to learn how to find your environment variables)
+   - Click __New__, and then in the text box, put the __absolute path__ of the __\wamp64\bin\php__ file
+   - Repeat the previous step, this time using the __absolute path__ of the __\wamp64\bin\mysql__ file
+   - Click __OK__, and exit out of the Environment Variables window
 ### 3. Install the [Yii2 Advanced Application Template using Composer](https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md#installing-using-composer)
  - Install the template using Composer
  - Complete only steps 1 and 2 of the Preparing Application Section (do NOT apply the migration)
