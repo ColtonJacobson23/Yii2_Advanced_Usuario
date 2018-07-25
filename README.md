@@ -20,7 +20,6 @@
                 'username' => 'Yii_User',<br/>
                 'password' => 'heloworld',<br/>
                 'charset' => 'utf8',<br/>
-                
             ],
  
 ### 4. 
