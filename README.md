@@ -31,12 +31,12 @@
    >'authManager' => [</br>
    'class' => 'yii\rbac\DbManager',</br>
    ],</br>
- - Then apply the followng migrations to your database
+ - Then apply the followng migrations to your database from inside the project directory
    - Migrations should be done in the command line, proper commands are below<br/>
    yii migrate --migrationNamespaces=Da\User\Migration<br/>
    yii migrate --migrationPath=@yii/rbac/migrations<br/>
    yii migrate<br/>
-   - Complete the migrations from inside the project directory
+
 ### 5. Add the 'status' column to the User table in the database
  - Go into the MySQL interface in the command line
  - USE the current database
