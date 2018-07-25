@@ -314,7 +314,7 @@ class BaseYii
      * $object = Yii::createObject([
      *     'class' => 'yii\db\Connection',
      *     'dsn' => 'mysql:host=127.0.0.1;dbname=demo',
-     *     'username' => 'root',
+     *     'Fname' => 'root',
      *     'password' => '',
      *     'charset' => 'utf8',
      * ]);
