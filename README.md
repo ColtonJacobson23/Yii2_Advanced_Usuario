@@ -42,7 +42,7 @@
    $menuItems[] = ['label' => 'Signup', 'url' => ['/user/registration/register']];
 ### 7. Running the website
  - Click on the wamp64 application and run it
- - Using a browser, go to the URL localhost/wamp64/www/project_file/frontend/web, which will take you to the frontend webpage of the template
+ - Using a browser, go to the URL localhost/project_file/frontend/web, which will take you to the frontend webpage of the template
  - To access the backend, repeat the URL above except use 'backend' instead of 'frontend'
 
 
