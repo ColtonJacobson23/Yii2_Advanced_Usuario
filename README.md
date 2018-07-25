@@ -39,7 +39,7 @@
 
 ### 5. Add the 'status' column to the User table in the database
  - Go into the MySQL interface in the command line
- - USE the current database
+ - Switch to the database created in step 3
  - Type the following code to add the status column</br>
  >alter table user add column status smallint not null default 10;
 ### 6. Use the Usuario [list of available actions](http://yii2-usuario.readthedocs.io/en/latest/installation/available-actions/) to configure the template to access the Usuario module webpages
