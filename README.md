@@ -31,6 +31,7 @@
    >'authManager' => [</br>
    'class' => 'yii\rbac\DbManager',</br>
    ],</br>
+ - Then exit out of *common\config\main.php* and go to frontend 
  - Then apply the followng migrations to your database from inside the project directory
    - Migrations should be done in the command line, proper commands are below<br/>
    yii migrate --migrationNamespaces=Da\User\Migration<br/>
