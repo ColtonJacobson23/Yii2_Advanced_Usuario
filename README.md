@@ -26,12 +26,12 @@
 ### 4. Download and Install the 2amigos/Usuario Module
  - Complete steps 1-2 [here](http://yii2-usuario.readthedocs.io/en/latest/installation/advanced-application-template/)
  - Configure the authManager
-   - Go to __common\config\main.php__ in the template
+   - Go to *__common/config/main.php__* in the template
    - Insert the code below into the 'components' array</br>
    >'authManager' => [</br>
    'class' => 'yii\rbac\DbManager',</br>
    ],</br>
- - Then exit out of __common\config\main.php__ and go to frontend 
+ - Then exit out of *__common/config/main.php__* and go to *__frontend/config/main.php__* 
  - Then apply the followng migrations to your database from inside the project directory
    - Migrations should be done in the command line, proper commands are below<br/>
    yii migrate --migrationNamespaces=Da\User\Migration<br/>
