@@ -1,4 +1,3 @@
-//![](https://github.com/ColtonJacobson23/LogosAndImages/blob/master/logo.png)
 <p align="center">
     <h1 align="center">Yii 2 Advanced Project Template with 2amigos/Usuario Module</h1>
     <br>
@@ -14,6 +13,10 @@ The template is designed to work in a team development environment. It supports
 deploying the application in different environments.
 
 ## Steps to Install and Implement Yii2 Advanced Template with the 2amigos/Usuario module
+### 1. Install a PHP IDE and Composer
+- Reccomended PHP IDE is [PHP Storm](https://www.jetbrains.com/phpstorm/download/)
+- [Composer download instructions](https://github.com/yiisoft/yii2/blob/master/docs/guide/start-installation.md#installing-composer)
+
 
 DIRECTORY STRUCTURE
 -------------------
