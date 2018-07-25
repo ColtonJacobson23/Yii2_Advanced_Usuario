@@ -9,9 +9,22 @@
 - Reccomended PHP IDE is [PHP Storm](https://www.jetbrains.com/phpstorm/download/)
 - [Composer download instructions](https://github.com/yiisoft/yii2/blob/master/docs/guide/start-installation.md#installing-composer)
 ### 2. Download and Install [Wamp Server (x64)](https://sourceforge.net/projects/wampserver/files/)
-### 3. Install the Yii2 Advanced Application Template using Composer
-- Follow [these instructions](https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md#installing-using-composer)
+### 3. Install the [Yii2 Advanced Application Template using Composer](https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md#installing-using-composer)
+ - Install the template using Composer
+ - Complete only steps 1 and 2 of the Preparing Application Section
+   - To create a database, [use the command line and MySQL](https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line)
+   - The 'db' array should look something like this
+   - >'db' => [
+                'class' => 'yii\db\Connection',<br/>
+                'dsn' => 'mysql:host=localhost;dbname=yii_app_db',<br/>
+                'username' => 'Yii_User',<br/>
+                'password' => 'heloworld',<br/>
+                'charset' => 'utf8',<br/>
+                
+            ],
+ 
 ### 4. 
+
 
 
 DIRECTORY STRUCTURE
