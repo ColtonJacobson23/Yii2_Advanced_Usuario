@@ -11,7 +11,7 @@
 ### 2. Download and Install [Wamp Server (x64)](https://sourceforge.net/projects/wampserver/files/)
 ### 3. Install the [Yii2 Advanced Application Template using Composer](https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/start-installation.md#installing-using-composer)
  - Install the template using Composer
- - Complete only steps 1 and 2 of the Preparing Application Section
+ - Complete only steps 1 and 2 of the Preparing Application Section (do NOT apply the migration)
    - To create a database, [use the command line and MySQL](https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line)
    - You will also need to create a database user, which is included in the link above
    - The 'db' array should look something like this
@@ -22,6 +22,7 @@
                 'password' => 'database_password',<br/>
                 'charset' => 'utf8',<br/>
             ],
+#### Once you finish the database configurations, move the entire project file into the wamp64/www/ folder, so that wamp will be able to recognize and run your website.
 ### 4. Download and Install the 2amigos/Usuario Module
  - Complete steps 1-3 [here](http://yii2-usuario.readthedocs.io/en/latest/installation/advanced-application-template/)
    - Migrations should be done in the command line, proper commands are below<br/>
@@ -39,7 +40,9 @@
  - Example:
    - Change:</br>$menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];</br>to</br>
    $menuItems[] = ['label' => 'Signup', 'url' => ['/user/registration/register']];
-
+### 7. Running the website
+ - Click on the wamp54 application and run it
+ - 
 
 
 DIRECTORY STRUCTURE
