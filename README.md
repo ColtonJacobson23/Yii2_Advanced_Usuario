@@ -37,7 +37,7 @@
    to </br>
    'identityClass' => 'Da\User\Model\User'</br>
    - This will point the frontend to the Usuario User Class instead of the one provided by the Yii2 Advanced Template
-   - To apply this to the backend as well, repeat the steps above inside the __backend/config/main.php__ file
+   - To apply this to the backend as well, repeat previous step inside the __backend/config/main.php__ file
  - Then apply the followng migrations to your database from inside the project directory
    - Migrations should be done in the command line, proper commands are below<br/>
    yii migrate --migrationNamespaces=Da\User\Migration<br/>
