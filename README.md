@@ -13,12 +13,13 @@
  - Install the template using Composer
  - Complete only steps 1 and 2 of the Preparing Application Section
    - To create a database, [use the command line and MySQL](https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line)
+   - You will also need to create a database user, which is included in the link above
    - The 'db' array should look something like this
    - >'db' => [
                 'class' => 'yii\db\Connection',<br/>
                 'dsn' => 'mysql:host=localhost;dbname=database_name',<br/>
-                'username' => 'username',<br/>
-                'password' => 'password',<br/>
+                'username' => 'database_user_name',<br/>
+                'password' => 'database_password',<br/>
                 'charset' => 'utf8',<br/>
             ],
 ### 4. Download and Install the 2amigos/Usuario Module
