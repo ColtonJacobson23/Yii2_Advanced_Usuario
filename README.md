@@ -31,12 +31,13 @@
    >'authManager' => [</br>
    'class' => 'yii\rbac\DbManager',</br>
    ],</br>
- - Then exit out of __common/config/main.php__ and go to __frontend/config/main.php__
+ - Then exit out of the __common/config/main.php__ file and go to __frontend/config/main.php__ file
    - Inside the 'user' array, change the identity class from</br>
    'identityClass' => 'common\models\User' </br>
    to </br>
    'identityClass' => 'Da\User\Model\User'</br>
-   - This will allow the frontend to use the Usuario User Class instead of the one provided by the Yii2 Advanced Template
+   - This will point the frontend to the Usuario User Class instead of the one provided by the Yii2 Advanced Template
+   - To apply this to the backend as well, repeat the steps above inside the __backend/config/main.php__ file
  - Then apply the followng migrations to your database from inside the project directory
    - Migrations should be done in the command line, proper commands are below<br/>
    yii migrate --migrationNamespaces=Da\User\Migration<br/>
