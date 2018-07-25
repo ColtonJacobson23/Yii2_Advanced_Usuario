@@ -29,7 +29,11 @@
    yii migrate --migrationPath=@yii/rbac/migrations<br/>
    yii migrate<br/>
    - Complete the migrations from inside the project directory
-   
+### 5. Use the Usuario [list of available actions](http://yii2-usuario.readthedocs.io/en/latest/installation/available-actions/) to configure the template to access the Usuario module webpages
+ - In the Frontend and Backend folders, go to the views/layouts/main.php file, and then use the list of available actions to replace current file-paths in the main.php files
+ - Example:
+   - Change:</br>$menuItems[] = ['label' => 'Signup', 'url' => ['/site/signup']];</br>to</br>
+   $menuItems[] = ['label' => 'Signup', 'url' => ['/user/registration/register']];
 
 
 
