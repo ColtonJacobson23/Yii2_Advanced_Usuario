@@ -22,7 +22,7 @@
                 'password' => 'database_password',<br/>
                 'charset' => 'utf8',<br/>
             ],
-#### Once you finish the database configurations, move the entire project file into the wamp64/www/ folder, so that wamp will be able to recognize and run your website.
+#### Once you finish the database configurations, move the entire project file into the wamp64/www/folder, so that wamp will be able to recognize and run your website.
 ### 4. Download and Install the 2amigos/Usuario Module
  - Complete steps 1-2 [here](http://yii2-usuario.readthedocs.io/en/latest/installation/advanced-application-template/)
  - Configure the authManager
