@@ -16,13 +16,19 @@
    - The 'db' array should look something like this
    - >'db' => [
                 'class' => 'yii\db\Connection',<br/>
-                'dsn' => 'mysql:host=localhost;dbname=yii_app_db',<br/>
-                'username' => 'Yii_User',<br/>
-                'password' => 'heloworld',<br/>
+                'dsn' => 'mysql:host=localhost;dbname=database_name',<br/>
+                'username' => 'username',<br/>
+                'password' => 'password',<br/>
                 'charset' => 'utf8',<br/>
             ],
- 
-### 4. 
+### 4. Download and Install the 2amigos/Usuario Module
+ - Complete steps 1-3 [here](http://yii2-usuario.readthedocs.io/en/latest/installation/advanced-application-template/)
+   - Migrations should be done in the command line, proper commands are below<br/>
+   yii migrate --migrationNamespaces=Da\User\Migration<br/>
+   yii migrate --migrationPath=@yii/rbac/migrations<br/>
+   yii migrate<br/>
+   - Complete the migrations from inside the project directory
+   
 
 
 
