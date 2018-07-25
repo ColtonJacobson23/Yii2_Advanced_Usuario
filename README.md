@@ -1,4 +1,4 @@
-![](https://github.com/ColtonJacobson23/LogosAndImages/blob/master/logo.png)
+//![](https://github.com/ColtonJacobson23/LogosAndImages/blob/master/logo.png)
 <p align="center">
     <h1 align="center">Yii 2 Advanced Project Template with 2amigos/Usuario Module</h1>
     <br>
